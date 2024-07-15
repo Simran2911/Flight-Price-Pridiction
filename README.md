@@ -24,14 +24,14 @@ The goal of this project is to develop a predictive model that estimates future 
       4. Number of stops.
 
 
-## Exploratory Data Analysis (EDA)
+## Exploratory Data Analysis (EDA):
 
 - Visualize price trends With number of stops.
  - Analyze correlation between features and price.
 - Identify seasonal patterns and price volatility.     
 - Identify Price variation with Source and Destination.
 
-## Model Selection
+## Model Selection:
 - Regression Models
      
        1. Extratree Regression
@@ -40,24 +40,33 @@ The goal of this project is to develop a predictive model that estimates future 
 
 Gradient Boosting (XGBoost, LightGBM).
 
-## Model Evaluation
+## Model Evaluation:
 - Split data into training and test sets (e.g., 80/20).
 - Use metrics like RMSE, MAE, and R² to evaluate model performance.
 
-## Deployment
+## Accuracy:
+
+
+| Model Name             |Accuracy                                                               |
+| ----------------- | ------------------------------------------------------------------ |
+| Random Forest Regression | 0.8532074703106208 |
+| Extratree Regressor | 0.7890353681268577|
+|Catboost Regressor | 0.8596289688357996 |
+
+
+
+## Deployment:
 - Create a web application Flask serve predictions.
 
-## Future Work
+## Future Work:
 - Incorporate real-time data for ongoing price updates.
 - Explore deep learning models for improved accuracy.
 - Develop a user interface for travelers to input parameters and get price predictions.
-## Tools and Technologies
+## Tools and Technologies:
  - Programming Languages: Python
 - Libraries: Pandas, NumPy, Scikit-learn, Matplotlib, Seaborn.
 - Database: SQL for storing historical data.
 - Web Framework: Flask, Django for the application.
 
-## Conclusion
+## Conclusion:
 This project aims to empower travelers with predictive insights, helping them make informed decisions and potentially save on flight costs.
- 
-  
